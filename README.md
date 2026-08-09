@@ -1,17 +1,21 @@
 # EventPulse-Hub
-Overview
+
+## 📌 Project Overview
+
 EventPulse Hub is a centralized management system for competitions and events, built on Airtable. It consolidates event operations, organizer relationships, and promotional content into a single connected workspace — replacing scattered spreadsheets and disconnected tools with one source of truth.
 
 The platform is designed for teams that run recurring competitions and events across many categories (sports, tech, creative, culinary, and more) and need to manage the full lifecycle: from drafting and QA review, through scheduling and going live, to archiving.
 
-The Problem
+## 📌 The Problem
+
 Organizations that manage a portfolio of competitions and events typically struggle with:
 
 Fragmented data — event details, fees, deadlines, and organizer contacts live in separate files.
 No lifecycle visibility — it's hard to know which events are in draft, under review, scheduled, live, or archived.
 Disconnected promotion — blog and marketing content isn't linked to the events it promotes.
 Weak organizer tracking — no clean directory of partner organizations or a live count of what each is running.
-The Solution
+
+## 📌 The Solution
 EventPulse Hub is structured around three interconnected tables:
 
 Table
