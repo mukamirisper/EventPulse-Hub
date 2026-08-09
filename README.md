@@ -1,6 +1,4 @@
 # EventPulse-Hub
-## 📸 Preview
-![Preview](EventPulse Hub.png)
 
 ## 📌 Project Overview
 
@@ -52,3 +50,24 @@ Related Event (linked to Competitions & Events)
 
 ## 📌 Results & Snapshot Metrics
 The current state of the base demonstrates the platform in active use:
+
+## 📌 Impact
+
+Single source of truth — all event, organizer, and content data unified and cross-linked.
+Lifecycle clarity — every event's stage is visible at a glance, from draft to archive.
+Diversified portfolio — 16 events spanning 14 distinct categories, showing broad program reach.
+Coordinated marketing — promo content is tied directly to its event, keeping campaigns aligned.
+Partner accountability — 15 organizers tracked with live active-listing counts.
+
+## 📌 Tech / Tooling
+
+Platform: Airtable
+Architecture: 3 relational tables (Events ↔ Organizers ↔ Promo Posts)
+Features used: Single-select lifecycle & category fields, currency fields, date deadlines, linked records, and rollup/count fields.
+
+## 📌 How to Reproduce
+
+Create the three tables described in the Key Data Model section.
+Link Competitions & Events to Organizers, and Blog & Promo Posts to Competitions & Events.
+Add a Count field on Organizers that counts linked events (Active Listings).
+Populate with your event data and use the Status field to drive your workflow.
