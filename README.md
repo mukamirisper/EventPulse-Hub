@@ -1,6 +1,6 @@
 # EventPulse-Hub
 ## 📸 Preview
-![Dashboard Preview](./EventPulse Hub.png)
+(EventPulse Hub.png)
 
 ## 📌 Project Overview
 
